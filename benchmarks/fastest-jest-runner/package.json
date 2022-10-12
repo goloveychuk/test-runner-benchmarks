@@ -36,6 +36,7 @@
     ],
     "runner": "fastest-jest-runner",
     "testEnvironment": "@happy-dom/jest-environment",
+    "setupFilesAfterEnv": ["<rootDir>/setup.js"],
     "transform": {
       "^.+\\.tsx?$": [
         "ts-jest",
